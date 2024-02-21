@@ -53,7 +53,7 @@ ID,Nome,Età,E-mail
 ```
 
 Viceversa ad un file `Parquet`, essendo organizzato **per colonne**, si può accedere direttamente ed anche esclusivamente alla colonna `Età`, **senza dover leggere anche le altre colonne**.<br>
-Qui sotto un esempio, in si vede per accedere alla colonna `Età`, si possono saltare tutte le altre e leggere soltanto quella.
+Qui sotto un esempio in cui si vede che per accedere alla colonna `Età` si possono saltare tutte le altre e leggere soltanto quella.
 
 ```{.markdown filename="tabella.parquet"}
 ID: 1,2,...
